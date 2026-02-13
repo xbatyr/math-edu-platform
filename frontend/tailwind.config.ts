@@ -6,20 +6,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "hsl(40 26% 96%)",
+        background: "hsl(220 32% 97%)",
         foreground: "hsl(217 32% 18%)",
         card: "hsl(0 0% 100%)",
         "card-foreground": "hsl(217 32% 18%)",
-        primary: "hsl(15 82% 45%)",
-        "primary-foreground": "hsl(40 26% 96%)",
+        primary: "hsl(220 78% 52%)",
+        "primary-foreground": "hsl(220 32% 97%)",
         muted: "hsl(210 20% 94%)",
         "muted-foreground": "hsl(217 12% 42%)",
         border: "hsl(210 22% 84%)",
-        ring: "hsl(15 82% 45%)",
+        ring: "hsl(220 78% 52%)",
       },
       fontFamily: {
-        sans: ["Manrope", "sans-serif"],
-        serif: ["IBM Plex Serif", "serif"],
+        sans: ["Plus Jakarta Sans", "Manrope", "sans-serif"],
+        serif: ["Plus Jakarta Sans", "sans-serif"],
       },
       keyframes: {
         "fade-up": {

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;700&family=Manrope:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,8 +11,8 @@
 body {
   @apply bg-background text-foreground font-sans antialiased;
   background-image:
-    radial-gradient(circle at 10% 10%, rgba(201, 84, 34, 0.15), transparent 25%),
-    radial-gradient(circle at 80% 20%, rgba(31, 41, 55, 0.08), transparent 28%);
+    radial-gradient(circle at 10% 10%, rgba(37, 99, 235, 0.12), transparent 28%),
+    radial-gradient(circle at 85% 18%, rgba(15, 23, 42, 0.07), transparent 30%);
   min-height: 100vh;
 }
 
@@ -20,7 +20,15 @@ h1,
 h2,
 h3,
 h4 {
-  @apply font-serif tracking-tight;
+  @apply font-sans tracking-tight;
+}
+
+.hero-modern-heading {
+  @apply font-sans font-medium leading-[1.08] tracking-tight text-[#2a4668];
+}
+
+.hero-modern-accent {
+  color: #32a7be;
 }
 
 .editorial-panel {
